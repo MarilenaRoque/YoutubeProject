@@ -31,6 +31,7 @@ a{
 .container{
   grid-template-columns: 33.333% auto 33.3333% ;
   grid-template-rows:56px;
+  padding: 0 2%;
 }
 
 .left-nav{
@@ -38,6 +39,9 @@ a{
   grid-column-end:2;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: inline-block;
+  margin-right: auto;
+
 }
 
 
@@ -46,6 +50,8 @@ a{
   grid-column-end:3;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: inline-block;
+  margin: auto;
 }
 
 
@@ -54,4 +60,25 @@ a{
   grid-column-end:4;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.material-icons{
+  display:inline-block;
+  padding: 0  12px;
+  color: grey;
+}
+
+.search-input{
+  
+}
+
+.search-button{
+  widows: 65px;
+}
+
+img[$"search"]{
+  width:24px;
+  height: 24px;
 }
