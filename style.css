@@ -71,7 +71,7 @@ a{
 }
 
 .search-input{
-  
+
 }
 
 .search-button{
@@ -81,4 +81,41 @@ a{
 img[$"search"]{
   width:24px;
   height: 24px;
+}
+
+.pageContent{
+   width: 80%;
+   margin: auto;
+   grid-template-columns: 70% 30%;
+   grid-template-rows:483px 400px 200px;
+   display:grid;
+   grid-gap:20px;
+}
+
+.display-video{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.recomendedVideos{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.channel-info{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.commentSection{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
