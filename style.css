@@ -13,6 +13,8 @@ a{
     width: 100%;
     height: 80px;
     background-color: white;
+    display: grid;
+
 
 }
 .yt-logo{
@@ -25,7 +27,31 @@ a{
     border-radius: 50%;
 }
 
-.nav-elements{
-    display: inline-block;
+
+.container{
+  grid-template-columns: 33.333% auto 33.3333% ;
+  grid-template-rows:56px;
 }
 
+.left-nav{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+.center-nav{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+.right-nav{
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
