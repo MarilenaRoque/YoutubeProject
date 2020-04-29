@@ -1,9 +1,52 @@
 body{
-    font-family: arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
 }
 
-a{
+
+a:link, a:hover, a:active, a:visited{
     text-decoration: none;
+    color:  rgb(96, 96, 96);
+}
+
+
+
+.second-title{
+  font-size:14px;
+  color: rgb(96, 96, 96);
+
+}
+
+main-title{
+  color: rgb(3, 3, 3);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtitle-video{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:100px;
+  
+}
+
+.button{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: #606060;
+  font-size: 13px;
+  display:flex;
+  align-items: top;
+
+}
+
+
+.video-title{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 
@@ -154,6 +197,7 @@ img[$"search"]{
   grid-column-start: 2;
   grid-column-end:3;
   text-align: right;
+  vertical-align: middle;
 }
 .autoplayButtons > img {
   width: 30px;
@@ -169,18 +213,14 @@ img[$"search"]{
   padding-top: 5px;
 }
 
-h4{
-  display: inline-block;s
-  display:inline-block;
-  margin-right: auto;
-  margin-bottom: auto;
-}
+
 
 .nextV{
 
   grid-column-start: 1;
   grid-column-end:2;
-
+  display: flex;
+  align-items: center;
 
 }
 
