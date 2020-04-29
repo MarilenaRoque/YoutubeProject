@@ -25,8 +25,8 @@ main-title{
 .subtitle-video{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows:100px;
-  
+  grid-template-rows:auto;
+
 }
 
 .button{
@@ -39,6 +39,9 @@ main-title{
   display:flex;
   align-items: top;
 
+}
+.material-icons{
+  vertical-align: middle;
 }
 
 
@@ -235,6 +238,7 @@ img[$"search"]{
   grid-column-end:2;
   grid-row-start: 2;
   grid-row-end: 3;
+  line-height: 0px;
 }
 .commentSection{
   grid-column-start: 1;
@@ -242,6 +246,67 @@ img[$"search"]{
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
+.channel{
+  display: grid;
+  grid-template-columns: 10% auto 15% ;
+  grid-template-rows: 200px 100px 40px;
+  grid-gap:10px;
+  align-items: start;
+  justify-items:start;
+}
+
+.channel-logo{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.verifiedChannelIcon{
+  font-size: 13px;
+  padding: 0  5px;
+}
+
+.channel-info{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: table;
+  height:  100%;
+  width:   100%;
+
+}
+
+.channel-info > h2{
+  display: table-cell;
+  vertical-align: top;
+  margin-bottom: 5px;
+}
+.channel-info > p{
+  display: table-cell;
+  vertical-align: top;
+}
+
+.channel-info > h4{
+  margin-bottom: 10px;
+}
+
+
+
+.videoDescription{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+
+
+
 
 iframe{
   width: 100%;
