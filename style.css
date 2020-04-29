@@ -240,6 +240,27 @@ img[$"search"]{
   grid-row-end: 3;
   line-height: 0px;
 }
+
+.button-subscribe-div{
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+
+
+.subscribe-button{
+  color: white;
+  background-color:#d50000;
+  border-radius: 2px;
+  border:none;
+  padding: 10px 16px;
+
+}
+
+
 .commentSection{
   grid-column-start: 1;
   grid-column-end:2;
@@ -250,7 +271,7 @@ img[$"search"]{
 .channel{
   display: grid;
   grid-template-columns: 10% auto 15% ;
-  grid-template-rows: 200px 100px 40px;
+  grid-template-rows: 95px 100px 40px;
   grid-gap:10px;
   align-items: start;
   justify-items:start;
@@ -297,11 +318,33 @@ img[$"search"]{
 
 
 .videoDescription{
-  grid-column-start: 2;
-  grid-column-end:3;
+  grid-column-start: 1;
+  grid-column-end:4;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+.commentMenu{
+  display:grid;
+  grid-template-columns: 30% auto ;
+  grid-template-rows: 50px;
+
+}
+commentNumber{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.button{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
 
 
 
@@ -311,4 +354,9 @@ img[$"search"]{
 iframe{
   width: 100%;
   height: 500px;
+}
+
+.small-text{
+  font-size:13px;
+  color: rgb(96, 96, 96);
 }
