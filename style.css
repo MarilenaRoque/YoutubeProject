@@ -8,7 +8,12 @@ a:link, a:hover, a:active, a:visited{
     color:  rgb(96, 96, 96);
 }
 
-
+hr{
+  height: 1px;
+  border: 0px;
+  color: #666;
+  background-color: #c3c1c8;
+}
 
 .second-title{
   font-size:14px;
@@ -82,6 +87,7 @@ nav{
     width: 34px;
     display: inline-block;
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 
@@ -253,11 +259,13 @@ img[$"search"]{
 
 
 .subscribe-button{
+
   color: white;
   background-color:#d50000;
   border-radius: 2px;
   border:none;
   padding: 10px 16px;
+  margin-top: 10px;
 
 }
 
@@ -272,7 +280,7 @@ img[$"search"]{
 .channel{
   display: grid;
   grid-template-columns: 10% auto 15% ;
-  grid-template-rows: 95px 100px 40px;
+  grid-template-rows: 95px 100px 40px 5px;
   grid-gap:10px;
   align-items: start;
   justify-items:start;
@@ -319,8 +327,8 @@ img[$"search"]{
 
 
 .videoDescription{
-  grid-column-start: 1;
-  grid-column-end:4;
+  grid-column-start: 2;
+  grid-column-end:3;
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -328,15 +336,21 @@ img[$"search"]{
 .commentMenu{
   display:grid;
   grid-template-columns: 30% auto ;
-  grid-template-rows: 50px;
-
+  grid-template-rows: 40px;
+  align-items: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
 }
-commentNumber{
+.commentNumber{
   grid-column-start: 1;
   grid-column-end:2;
   grid-row-start: 1;
   grid-row-end: 2;
+  margin: auto auto auto 0 ;
 }
+
+
 
 .button{
   grid-column-start: 2;
@@ -346,11 +360,48 @@ commentNumber{
 
 }
 
+.show{
+  grid-column-start: 2;
+  grid-column-end:3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: gray;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.division{
+  grid-column-start: 1;
+  grid-column-end:4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 100%
+}
 
 
+.channel-logo > img:nth-child(1){
+margin-top: 10px;
+}
 
 
+.commentList{
+  display:grid;
+  grid-template-columns: 5% auto ;
+  grid-template-rows: 40px;
+  grid-gap: 10px;
+}
 
+
+.commentPicture{
+  grid-column-start: 1;
+  grid-column-end:2;
+}
+
+.commentComment{
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end:3;
+}
 
 iframe{
   width: 100%;
