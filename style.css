@@ -1,11 +1,9 @@
 
                  /* Main Elements */
 
-
 body{
   font-family: Roboto, Arial, sans-serif;
 }
-
 
 a:link, a:hover, a:active, a:visited{
     text-decoration: none;
@@ -24,13 +22,11 @@ li{
   display: inline-block;
 }
 
-
 .yt-logo{
   width: 110px;
   height: 24px;
   vertical-align: middle;
 }
-
 
 .material-icons{
   vertical-align: middle;
@@ -51,18 +47,11 @@ li{
   color: rgb(96, 96, 96);
 }
 
-
-
 .small-bold-text{
   font-weight: bold;
   font-size:16px
 
 }
-
-
-
-
-
 
 
 
@@ -78,7 +67,6 @@ nav{
   display: grid;
   grid-template-columns: 25% auto 25% ;
   grid-template-rows:56px;
-
 }
 
 .left-nav{
@@ -86,29 +74,23 @@ nav{
   grid-column-end:2;
   grid-row-start: 1;
   grid-row-end: 2;
-  display: inline-block;
   margin-right: auto;
-
 }
-
 
 .center-nav{
   grid-column-start: 2;
   grid-column-end:3;
   grid-row-start: 1;
   grid-row-end: 2;
-  display: inline-block;
   margin: auto;
   width: 100%;
 }
-
 
 .right-nav{
   grid-column-start: 3;
   grid-column-end:4;
   grid-row-start: 1;
   grid-row-end: 2;
-  display: inline-block;
   margin-left: auto;
 }
 
@@ -120,15 +102,12 @@ nav{
   height: 23px;
   vertical-align: middle;
   width:60%;
-  display: inline-block;
   margin-bottom: 18px;
-
 }
 
 .search-button{
   width: 65px;
   vertical-align: middle;
-  display: inline-block;
   margin-bottom: 18px;
   height: 28px;
 }
@@ -144,8 +123,8 @@ nav{
   grid-gap:20px;
 }
 
-
   /* Display Video Section */
+
 iframe{
   width: 100%;
   height: 500px;
@@ -159,7 +138,6 @@ iframe{
 }
 
 .main-title{
-  color: rgb(3, 3, 3);
   font-size: 18px;
   font-weight: bold;
 }
@@ -180,7 +158,6 @@ iframe{
 .second-title{
   font-size:14px;
   color: rgb(96, 96, 96);
-
 }
 
 .buttons-section{
@@ -188,9 +165,7 @@ iframe{
   grid-column-end:3;
   grid-row-start: 1;
   grid-row-end: 2;
-
 }
-
 
 /* Recommended Videos  */
 
@@ -235,7 +210,6 @@ iframe{
   grid-column-start: 2;
   grid-column-end:3;
   text-align: right;
-  vertical-align: middle;
 }
 .autoplayButtons > img, .autoplayButtons > span {
   width: 30px;
@@ -259,17 +233,15 @@ iframe{
   grid-column-end:4;
   grid-row-start: 1;
   grid-row-end: 2;
-
 }
-.subscribe-button{
 
+.subscribe-button{
   color: white;
   background-color:#d50000;
   border-radius: 2px;
   border:none;
   padding: 10px 16px;
   margin-top: 10px;
-
 }
 
 .channel{
@@ -286,7 +258,6 @@ iframe{
   grid-column-end:2;
   grid-row-start: 1;
   grid-row-end: 2;
-
 }
 
 .verifiedChannelIcon{
@@ -301,7 +272,6 @@ iframe{
   grid-row-end: 2;
   height:  100%;
   width:   100%;
-
 }
 
 
@@ -330,7 +300,6 @@ iframe{
 
 /* Comment Section */
 
-
 .commentSection{
   grid-column-start: 1;
   grid-column-end:2;
@@ -343,10 +312,15 @@ iframe{
   grid-template-columns: 30% auto ;
   grid-template-rows: 40px;
   align-items: center;
+}
+
+.tittle-button{
   color: gray;
   font-weight: bold;
   font-size: 14px;
 }
+
+
 .commentNumber{
   grid-column-start: 1;
   grid-column-end:2;
@@ -370,15 +344,12 @@ iframe{
   grid-gap: 10px;
 }
 
-
 .commentPicture{
   grid-column-start: 1;
   grid-column-end:2;
 }
 
-
-
-               /* Footer */
+            /* Footer */
 
 .footer{
   grid-column-start: 1;
