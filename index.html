@@ -5,111 +5,308 @@
     <title>YouTube Rewind 2019: For the Record | #YouTubeRewind</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
-  <body>
 
 
-    <header>
+  <!-- This is an organized Code -->
 
 
-      <!-- Here is the Top Navbar -->
-
-
-      <div class="top-nav">
-
-
-        <nav>
-
-          <span class="material-icons">
-            menu
-          </span>
-          <img src="img/logo.png" alt="">
-          <input type="text" name="" value="">
-          <button type="button" name="button"><a href="#"> <img src="img/search.svg"> </a></button>
-          <span class="material-icons">
-            video_call
-          </span>
-          <span class="material-icons">
-            apps
-          </span>
-          <span class="material-icons">
-            notifications
-          </span>
-          <div class="user">
-            <span>M</span>
-          </div>
+<body>
 
 
 
-        </nav>
 
 
+  <!-- Here is the Top Navbar -->
+
+
+
+
+  <nav>
+
+    <div class="left-nav nav-elements">
+      <span class="material-icons">
+        menu
+      </span>
+      <img class="yt-logo" src="img/logo.png" alt="">
+    </div>
+
+
+
+    <div class="center-nav nav-elements">
+      <input class="search-input" type="text" name="video-Search"><!--
+    --><button class='search-button' type="button" name="button"><img src="img/search.svg" alt='search icon'></button>
+    </div>
+
+
+    <div class="right-nav nav-elements">
+      <span class="material-icons">
+        video_call
+      </span>
+      <span class="material-icons">
+        apps
+      </span>
+      <span class="material-icons">
+        notifications
+      </span>
+      <div class="user">
+        <img src="img/user.png" class="user" alt="profile picture">
       </div>
+    </div>
 
 
-      <!-- Here is the frame to display the video -->
+
+  </nav>
 
 
-      <div class="display-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2lAe1cqCOXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+  <!-- Here is the frame to display the video and its information and buttons -->
+
+  <div class="pageContent">
+
+    <div class="display-video">
+
+          <!-- Video -->
+      <iframe src="https://www.youtube.com/embed/2lAe1cqCOXo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- Video Title and Informations -->
+        <p class="main-title">
+          YouTube Rewind 2019: For the Record | <a href="#">#YouTubeRewind</a>
+        </p>
+
+      <div class="subtitle-video">
         <div class="video-title">
-          <p class="main-title">
-            YouTube Rewind 2019: For the Record | <a href"#">#YouTubeRewind</a></div>
-          </p>
+
           <p class="second-title">
-            102.055.317 visualizações•5 de dez. de 2019
+            102.055.317 visualizações • 5 de dez. de 2019
           </p>
+
         </div>
 
 
-        <div class="button">
+          <!-- Like and Dislike Section -->
+        <div class="buttons-section matIcons-interact">
 
-          <a href="#"><span class="material-icons">
-            thumb_up
-          </span><span class="number title-button"></span></a>
-            thumb_down
-          <a href="#"><span class="material-icons">
+          <a href="#">
+            <span class="material-icons">
+              thumb_up
+            </span>
+            <span class="tittle-button">273 K</span>
+          </a>
+
+          <a href="#">
+            <span class="material-icons">
+              thumb_down
+            </span>
+            <span class="tittle-button"> 11 K</span>
+          </a>
+
+
+          <a href="#">
+            <span class="material-icons">
             reply
-          </span><span class="number title-button"></span></a>
+            </span>
+            <span class="tittle-button">SHARE</span>
+          </a>
 
-          <a href="#"><span class="material-icons">
+
+
+          <a href="#">
+            <span class="material-icons">
             playlist_add
-          </span><span class=" title-button"></span></a>
+            </span>
+            <span class="tittle-button">SAVE</span>
+          </a>
 
-          <a href="#"><span class="material-icons">
-            more_horiz
-          </span><span class=" title-button"></span></a>
+          <a href="#">
+            <span class="material-icons">
+              more_horiz
+            </span>
+          </a>
 
         </div>
-
 
       </div>
+
 
       <hr>
-
-      <!-- Here is the div with the channel informations -->
-
-      <div class="channel">
+    </div>
 
 
-        <div class="channel-logo">
-
-          <img src="img/channel.jpg">
-
-        </div>
 
 
-        <div class="channel-info">
 
-          <h4>Youtube</h4>
+    <!-- Here is the div with the channel informations -->
+
+    <div class="channel">
+
+      <!-- Logo Channel -->
+      <div class="channel-logo">
+
+        <img src="img/channel.jpg" alt='channel profile'>
+
+      </div>
+
+      <!-- Side of the logo- name and subscribers -->
+      <div class="channel-info name-subscribers">
+
+        <h4 >Youtube<span class="material-icons verifiedChannelIcon">
+          check_circle
+        </span></h4>
+
+        <span class="subscribers small-text">30,1 mi de inscritos</span>
+
+      </div>
+
+      <div class="button-subscribe-div">
+        <button type="button" value="SUBSCRIBE" class="subscribe-button">SUBSCRIBE</button>
+
+      </div>
+
+      <!-- Video Description -->
+      <div class="videoDescription">
+
+        <p>In 2018, we made something you didn’t like. For Rewind 2019, let’s see what you DID like.
+        Celebrating the creators, music and moments that mattered most to you in 2019. </p>
+        <br>
+        <p class="tittle-button"> SHOW MORE</p>
+
+
+
+      </div>
+
+
+
+
+
+      <div class="line-division">
+        <hr>
+      </div>
+
+    </div>
+
+
+
+
+    <aside class="recomendedVideos">
+      <div class="nextV">
+        <h4 >Next Video</h4>
+      </div>
+
+
+      <div class="autoplayButtons">
+        <span>Autoplay </span><img src="img/toggle.svg" alt="">
+      </div>
+
+
+      <!-- Next Video -->
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+
+
+
+
+
+      <!-- Related Videos  -->
+
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div><div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+      <div class="videoTumb">
+        <img src="img/nextVideo.webp" alt="">
+
+      </div>
+      <div class="nextVideoInfo">
+        <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
+        <p class="videoChanel small-text">Billie Eilish</p>
+        <p class="videoSubscribers small-text">90 M de vistas Hace 3 meses</p>
+      </div>
+
+
+
+
+
+
+
+    </aside>
+
+
+    <!-- Comments Section -->
+
+    <div class="commentSection">
+
+
+      <!-- Coments Information -->
+      <div class="commentMenu">
+        <h4 class="commentNumber">198,621 comentarios</h4>
+
+        <div class="matIcons-interact">
+
           <span class="material-icons">
-            check_circle
+            sort
           </span>
-          <span class="subscribers">30,1 mi de inscritos</span>
-          <p>In 2018, we made something you didn’t like. For Rewind 2019, let’s see what you DID like. </p>
-          <p>Celebrating the creators, music and moments that mattered most to you in 2019. </p>
 
-          <span class="show"> SHOW MORE</span>
+          <span class="tittle-button">SORT BY</span>
 
 
         </div>
@@ -118,126 +315,146 @@
       </div>
 
 
-        <aside class="recomendedVideos">
-          <div class="nextVideo">
-            <h4>Next Video</h4><span>Autoplay</span><span>Enable button</span>
-            <img src="img/nextVideo.webp" alt="">
-            <div class="nextVideoInfo">
-              <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
-              <p class="videoChanel">Billie Eilish</p>
-              <p class="videoSubscribers">90 M de vistas Hace 3 meses</p>
-            </div>
-          </div>
-          <hr>
-          <div class="nextVideo">
-            <h4>Next Video</h4><span>Autoplay</span><span>Enable button</span>
-            <img src="img/recomended1.webp" alt="">
-            <div class="nextVideoInfo">
-              <h4 class="r-VideoName">YouTube Rewind: Turn Down for 2014 </h4>
-              <p class="videoChanel">YouTube <span class="material-icons">check_circle</span> </p>
-              <p class="videoSubscribers">133 M de vistas Hace 5 años</p>
-            </div>
-          </div>
-          <div class="nextVideo">
-            <h4>Next Video</h4><span>Autoplay</span><span>Enable button</span>
-            <img src="img/nextVideo.webp" alt="">
-            <div class="nextVideoInfo">
-              <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
-              <p class="videoChanel">Billie Eilish</p>
-              <p class="videoSubscribers">90 M de vistas Hace 3 meses</p>
-            </div>
-          </div>
-          <div class="nextVideo">
-            <h4>Next Video</h4><span>Autoplay</span><span>Enable button</span>
-            <img src="img/nextVideo.webp" alt="">
-            <div class="nextVideoInfo">
-              <h4 class="r-VideoName">Billie Eilish - everything i wanted </h4>
-              <p class="videoChanel">Billie Eilish</p>
-              <p class="videoSubscribers">90 M de vistas Hace 3 meses</p>
-            </div>
-          </div>
-
-        </aside>
 
 
 
-        <div class="commentSection">
-          <div class="commentMenu">
-            <h4 class="comentNumber">198,621 comentarios</h4>
 
-            <div class="button">
-              <h4>Sort by</h4>
-              <span class="material-icons">
-                sort
-              </span>
-            </div>
-          </div>
+      <!-- List of Comments Example -->
+      <div class="commentList">
 
-          <div class="addComent">
+
+
+        <!-- Comment Box -->
+        <div class="addComent commentPicture">
             <div class="user">
-              <span>M</span>
+              <img src="img/user.png" class="user" alt='user profile'>
             </div>
 
-            <input type="text" name="" value="" placeholder="Add a comment">
-          </div>
 
 
-          <div class="commentList">
-            <div class="comment">
-              <span class="commentUser">Cyper XXV</span><span>1 month ago</span>
-              <p>This “rewind” is literally just a statistic video</p>
 
-              <div class="commentButtons">
-                <span class="material-icons">
-                  thumb_up
-                </span>
-                <span>46,254</span>
-                <span class="material-icons">
-                  thumb_down
-                </span>
-                <span>1</span>
-                <span>Answer</span>
 
-                <a href="#">
-                  <span class="material-icons">
-                    arrow_drop_down
-                  </span>
-                  See 132 Answers </a>
-              </div>
-            </div>
+        </div>
 
-            <div class="comment">
-              <span class="commentUser">Cyper XXV</span><span>1 month ago</span>
-              <p>This “rewind” is literally just a statistic video</p>
-
-              <div class="commentButtons">
-                <span class="material-icons">
-                  thumb_up
-                </span>
-                <span>46,254</span>
-                <span class="material-icons">
-                  thumb_down
-                </span>
-                <span>1</span>
-                <span>Answer</span>
-
-                <a href="#">
-                  <span class="material-icons">
-                    arrow_drop_down
-                  </span>
-                  See 132 Answers </a>
-              </div>
-            </div>
-          </div>
+        <div class="comment-text">
+          <input class="input-comment" type="text" name="commenInput" value="" placeholder="Add a comment">
         </div>
 
 
+        <!-- Each comment -->
 
 
 
-    </header>
+          <div class="user commentPicture">
+            <img src="img/user.png" class="user" alt="user profile">
+          </div>
+
+          <div class="comment-options comment-text">
+
+            <span class="commentUser">Cyper XXV</span>
+            <span class="small-text">1 month ago</span>
+            <p class="comment-text">This “rewind” is literally just a statistic video</p>
+
+            <div class="commentButtons">
+              <span class="material-icons">
+                thumb_up
+              </span>
+              <span class="small-text">46,254</span>
+              <span class="material-icons">
+                thumb_down
+              </span>
+              <span class="small-text">1</span>
+              <span class="small-text">Answer</span>
+
+              <a href="#">
+                <span class="material-icons">
+                  arrow_drop_down
+                </span>
+                <span class="comment-text">See 132 Answers</span>
+              </a>
+
+            </div>
+
+          </div>
 
 
 
-  </body>
+
+
+
+      </div>
+      <!--End of the comment List -->
+
+
+    </div>
+
+
+    <footer>
+      <hr>
+      <img class="yt-logo" src="img/logo.png" alt="ytLogo">
+      <button type="button" name="button" class="footer-button">
+        <span class="material-icons">
+          record_voice_over
+        </span>
+        Languages
+        <span class="material-icons">
+          arrow_drop_down
+        </span>
+      </button>
+      <button type="button" name="button" class="footer-button">
+        Locations
+        <span class="material-icons">
+          arrow_drop_down
+        </span>
+      </button>
+      <button type="button" name="button" class="footer-button">
+        Restricted mode
+        <span class="material-icons">
+          arrow_drop_down
+        </span>
+      </button>
+      <button type="button" name="button" class="footer-button">
+        <span class="material-icons">
+          hourglass_empty
+        </span>
+        History
+      </button>
+      <button type="button" name="button" class="footer-button">
+        <span class="material-icons">
+          help
+        </span>
+        Help
+      </button>
+
+
+      <hr>
+      <ul class="small-bold-text">
+        <li class="footer-li">About</li>
+        <li class="footer-li">Press</li>
+        <li class="footer-li">Copyright</li>
+        <li class="footer-li">Creators</li>
+        <li class="footer-li">Advertise</li>
+        <li class="footer-li">Developers</li>
+      </ul>
+
+      <ul class="small-text">
+        <li class="footer-li">Terms</li>
+        <li class="footer-li">Privacy</li>
+        <li class="footer-li">Policy & Safety</li>
+        <li class="footer-li">Test new features</li>
+      </ul>
+
+    </footer>
+
+
+  </div>
+
+
+</body>
+
+
+
+
+
+
 </html>
