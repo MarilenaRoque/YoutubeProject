@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](hhttps://raw.githack.com/MarilenaRoque/YoutubeProject/master/index.html)
+[Live Demo Link](https://marilenaroque.github.io/YoutubeProject/)
 
 
 ## Authors
